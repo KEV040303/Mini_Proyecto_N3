@@ -1,0 +1,163 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.containerInputAndBtn {
+  display: flex;
+  padding: 0px 15px;
+  align-items: center;
+  min-height: 45px;
+  border-radius: 16px;
+  border: 1px solid #f2f2f2;
+  box-shadow: 5px 5px 15px 5px #0000001a;
+  font-size: 14px;
+  color:  #808080;
+  width: 210px;
+}
+
+.containerInputAndBtn:hover{
+ background-color:  #cbcbcb1a;
+ border: 1px solid  #78787859;
+ transition: 0.3s;
+
+}
+.inputText {
+  border-left: 1px solid #f2f2f2;
+  border-right: 1px solid #f2f2f2;
+  min-width: 5px;
+  font-size: 13px;
+  padding: 0px 10px;
+  background-color: transparent;
+}
+
+.inputText1 {
+  min-width: 20px;
+  font-size: 13px;
+/*   padding-right: 12px;
+ */  background-color: transparent;
+
+}
+
+input:focus {
+  outline: none;
+}
+
+.btnSearch {
+  align-items: center;
+  display: flex;
+  color: #eb5757;
+  padding-left: 8px;
+}
+
+.btnSearch:hover {
+  color: #00c3ff;
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imgIcon {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 40px;
+  }
+
+  .containerInputAndBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ 
+  
+}
+
+
+
+.btnSearchModal {
+  width: 297px;
+  height: 55px;
+  top: 32px;
+  left: 1047px;
+  border-radius: 16px;
+  box-shadow: 0px 1px 6px 0px #0000001a;
+}
+
+.containerModalInfo {
+  position: absolute;
+  width: 100%;
+  top:0px;
+  height: 450px;
+  z-index: 1;
+  background-color: white;
+}
+
+.subContainerModalInfo {
+  margin: 0px 80px;
+  width: 1248px;
+  height: 55px;
+  top: 93px;
+  left: 96px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 6px 0px #0000001a;
+  display: flex;
+}
+
+.inputTextModal {
+  width: 426px;
+  height: 55px;
+  top: 93px;
+  left: 97px;
+  border-radius: 16px;
+  padding: 0px 15px;
+  border-left: 1px solid #f2f2f2;
+  border-right: 1px solid #f2f2f2;
+ 
+}
+
+.inputTextModal:focus {
+  border: 1px solid #c5c5c5;
+  transition: 0.5s;
+}
+
+.btnSearchModal {
+  width: 126px;
+  height: 55px;
+  top: 97px;
+  left: 1084px;
+  border-radius: 16px;
+  background: #eb5757e5;
+  box-shadow: 0px 1px 6px 0px #0000001a;
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.btnSearchModal:hover {
+  background-color: #f72f0ce5;
+  transition: 0.4s;
+}
+.divBtnModal {
+  margin: 0px 100px;
+}
+
+.cancel{
+  color: #c9c9c9;
+ width: 100%;
+ height: 70px;
+ display: flex;
+ align-items: start;
+ justify-content: right;
+ padding: 20px;
+}

@@ -1,0 +1,56 @@
+.containerHotels:hover{
+.btnSuperHost {
+  background-color: #eb5757e5;
+  border: none;
+  color: white;
+  transition: 0.4s;
+}
+}
+.imgHotel {
+  width: 395px;
+  height: 269px;
+  top: 209px;
+  left: 94px;
+  border-radius: 24px;
+}
+.starIcon {
+  color: #eb5757;
+}
+
+.btnSuperHost {
+  background-color: transparent;
+  border-radius: 12px;
+  border: 1px solid #c9c9c9;
+  width: 100px;
+  height: 28px;
+  flex-shrink: 0;
+  color: hwb(0 62% 38%);
+  margin-right: 10px;
+}
+.btnAndDescription {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0px;
+}
+.infoOfHotelsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.starAndPunctuation {
+  display: flex;
+  align-items: center;
+}
+.star {
+  color: #eb5757;
+}
+
+.descriptionRoom {
+  color: Gray;
+  padding-right: 20px;
+}
+.descriptionBed {
+  color: Gray;
+}
